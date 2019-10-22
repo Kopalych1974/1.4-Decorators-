@@ -35,3 +35,5 @@ def parameterized_logger(path):
 @parameterized_logger("put path to logs as an argument") # Нужно прописать путь до файла, как аргумент.
 def say_something(*args, **kwargs):
     return 'func_result'
+
+say_something('Here', 'we will pass ', name='the arguments' )
